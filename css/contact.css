@@ -1,0 +1,66 @@
+* {box-sizing: border-box;}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    font-size: 15px;
+   
+   
+  }
+
+
+  h3{
+    margin-top: 70px;
+    margin-left: 450px;
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+  }
+  .newcontainer{
+  
+  width: 400px;
+  height: 600px;
+  padding: 10px 20px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 10px;
+  margin-left: 450px;
+  
+  }
+  
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+  background-color: #5A80FB;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #2048ce;
+}

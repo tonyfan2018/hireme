@@ -1,0 +1,628 @@
+/*main.css*/
+
+*{
+
+    top:0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+
+}
+
+.logg{
+
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 2px 12px;
+  color: #424242;
+  font-size: 10px;
+  transition: background-color 1s;
+
+
+}
+
+
+.logg:hover{
+  margin-right: 20px;
+  background-color: #5A80FB;
+  padding: 2px 12px;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+
+.logl{
+
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 2px 12px;
+  color: #424242;
+  font-size: 10px;
+  transition: background-color 1s;
+
+
+}
+
+.logl:hover{
+
+  margin-right: 20px;
+  background-color: #5A80FB;
+  padding: 2px 12px;
+  color: #ffffff;
+  
+  font-size: 10px;
+
+
+}
+
+
+
+
+/* header */
+
+#logoPic img{
+    margin-left: 20px;
+    width: 100px;
+   
+}
+
+a{
+
+    text-decoration: none;
+    color: #424242;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    /* position: static; */
+    background-color: #ffffff;
+    transition: .2s;
+    box-shadow: 0px 1px 5px #dbdbdb;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: 3;
+  
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav li{
+
+    margin-right: 35px;
+    list-style: none;
+}
+
+.log>a{
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 2px 12px;
+    color: #424242;
+    font-size: 10px;
+    transition: background-color 1s;
+
+}
+
+.log>a:hover{
+  margin-right: 20px;
+  background-color: #5A80FB;
+  padding: 2px 12px;
+  color: #ffffff;
+  
+  font-size: 10px;
+}
+
+
+/* header */
+
+
+
+/* banner */
+
+/* Slideshow container */
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  margin-top: 3em;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #8ba1eb;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  left: 93%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+color: #5A80FB;
+
+}
+
+/* Caption text */
+
+
+/* The dots/bullets/indicators */
+.group-dot{
+
+
+  text-align: center;
+  position: relative;
+
+  top: -40px;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color:#d4daf3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+
+}
+
+a:active{
+color: #5A80FB;;
+}
+
+a:hover{
+  color: #5A80FB;;
+  }
+
+.active, .dot:hover {
+  background-color: #5A80FB;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* banner */
+
+
+
+
+/* student page */
+
+
+.whole-page{
+
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+}
+
+
+.student-page{
+
+
+font-size: 10px;
+
+background-color:rgb(255, 255, 255);
+margin:10px;
+
+width: 250px;
+height: 360px;
+border-radius: 10px;
+position: relative;
+box-shadow: 1px 1px 8px #bdbdbd;
+transition: .5s;
+
+
+
+
+
+}
+
+.student-page:hover{
+  transform: scale(1.05);
+}
+
+
+
+.portfolioImage{
+
+
+width: 250px;
+height: 250px;
+overflow:auto;
+object-fit: cover;
+position: relative;
+top:0px;  
+left:0px; 
+
+border-radius: 10px 10px 0 0;
+
+
+}
+
+
+.studentAvatar{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 210px;
+  left:20px;
+
+
+
+}
+
+
+.nscontainer{
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 120px;
+  height: 50px;
+ 
+
+}
+.name{
+ 
+
+  font-weight: bold;
+  font-size: 15px;
+ 
+
+}
+
+.school{
+
+
+  font-size: 10px ;
+
+}
+
+.address{
+
+float: left;
+margin-top: 25px;
+margin-left: 8px;
+font-size:10px;
+width: 100px;
+height: 30px;
+overflow: auto;
+object-fit: cover;
+text-align: center;
+
+
+
+}
+
+.address i{
+
+  margin-right: 5px;
+  color: #5A80FB;
+}
+
+.fa-bars{
+
+  float: left;
+  margin-top: 24px;
+  margin-left: 15px;
+  font-size: 15px;
+  color: #5A80FB;
+  transition: .5s;
+
+}
+
+
+.fa-bars:hover{
+
+  color: #2048ce;
+
+}
+
+.like{
+float: right;
+margin-top: 18px;
+font-size: 15px;
+margin-left: 60px;
+margin-right: 10px;
+
+
+}
+
+.like i{
+
+  color: #5A80FB;
+  margin-right: 5px;
+
+}
+
+/* student page */
+
+
+
+/******portfolio display*****/
+.whole-page{
+  display: flex;
+  width: 100vmax;
+  height: 100vmax;
+  
+
+}
+
+.back{
+
+  width: 100vmax;
+  height: 110vmax;
+ background-color: rgb(0, 0, 0);
+opacity: .8;
+position: absolute;
+z-index: -2;
+
+}
+.backimage{
+
+  position: absolute;
+  
+  z-index: -3;
+
+  width: 100vmax;
+  height: 110vmax;
+
+  
+  }
+  
+.portfolio-display{
+
+width: 600px;
+height: 650px;
+background-color: #ffffff;
+margin-top: 100px;
+border-radius: 15px;
+padding: 45px 25px;
+position: relative;
+box-shadow: 1px 1px 8px #bdbdbd;
+}
+
+.image-area{
+  display: flex;
+  width: 550px;
+  height: 300px;
+  overflow: auto;
+  background-color: rgb(245, 245, 245);
+  border-radius: 7px;
+ 
+
+}
+
+.portfolio-tile{
+
+  font-size: 30px;
+  margin: 15px 0px 5px 0px;
+}
+
+.portfolio-date{
+
+
+margin-bottom: 20px;
+font-weight: bold;
+
+
+
+}
+
+.portfolio-content{
+  font-size:15px;
+
+  background-color: rgb(249, 250, 249);
+  width: auto;
+  overflow: auto;
+  height: 90px;
+}
+
+.portfolio-likes{
+
+  float: right;
+  color: #5A80FB;
+  margin-top: 30px;
+}
+
+.cancel{
+  position: absolute;
+  top:5px;
+  left: 560px;
+  font-size: 25px;
+
+}
+
+.upload-portfolio{
+  float: left;
+  margin-top: 30px;
+
+  color: #5A80FB;
+
+}
+
+
+/******log in*******/
+
+.login-page{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100vmax;
+  background-color:#EEF1FE;
+
+}
+.form{
+  margin-top: 100px;
+  max-width: 450px;
+  max-height: 500px;
+  padding: 10px 20px;
+}
+
+
+
+.user-avatar{
+font-size: 100px;
+text-align: center;
+color: #5A80FB;
+}
+
+
+
+/******log in*******/
+
+/******register*******/
+.regi-page{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100vmax;
+  background-color:#EEF1FE;
+
+}
+.regi-form p {
+  text-align: center;
+  color: #5A80FB;
+  font-size: 30px;
+
+  margin-bottom: 50px;
+} 
+.regi-form {
+  
+  height: 600px;
+  align-self: center;
+
+}
+
+.regi-form button{
+  border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #5A80FB;
+    border-radius: 6px;
+    }
+    
+    .regi-form button:hover {
+      background-color:  #2048ce;
+    }
+
+    /******register*******/
+
+/*****corpersonal******/
+
+
+
+.corpersonal-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.coravatar{
+
+margin: 30px 0px;
+
+}
+
+.corpersonal{
+margin-top: 150px;
+width: 400px;
+height: 600px;
+background-color: #ffffff;
+text-align: center;
+border-radius: 15px;
+box-shadow: 1px 1px 8px #bdbdbd;
+
+
+}
+
+.corname{
+  font-size: 30px;
+  font-weight: bold;
+}
+.coremail{
+
+margin-bottom: 15px;
+
+}
+.coraddress{
+  margin-bottom: 15px;
+
+}
+
+.corintro{
+  margin-top: 50px;
+  width: 350px;
+  height: 150px;
+  background-color: #f0f0f0;
+  margin-left: 25px;
+  overflow: auto;
+  border-radius: 5px;
+
+}
+
+
+
+
+/*****corpersonal******/

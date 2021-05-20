@@ -1,0 +1,301 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #424242;
+    font-size: 15px;
+}
+
+main{
+
+
+display: flex;
+
+padding: 0 35px;
+
+
+}
+
+
+.student-area{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    min-width: 250px;
+    height: 600px;
+    margin-top:80px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #bdbdbd;
+  
+}
+.student-head{
+
+    align-self: center;
+}
+/* .information{
+
+    margin-left: 25px;
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+} */
+
+.student-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 35px;
+    align-self: center;
+
+ 
+}
+
+.student-name{
+
+    font-weight: 800;
+
+    font-size: 20px;
+    align-self: center;
+
+
+
+}
+
+.student-major{
+
+    font-size: 10px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+hr{
+
+ width: 200px;
+ height:0px; 
+ border-top:1px solid #999; 
+ border-right:0px;
+ border-bottom:0px;
+ border-left:0px;
+ align-self: center;
+ margin:0 22px;
+
+
+}
+
+.education{
+margin-left:25px;
+font-size: 13px;
+font-weight: 800;
+
+}
+
+.student-school{
+margin-top: 5px;
+margin-left:25px;
+font-size: 10px;
+font-weight: 800;
+margin-bottom: 15px;
+    
+}
+.student-address{
+
+margin-top: 10px;
+margin-left:25px;
+font-size: 13px;
+font-weight: 800;
+    
+}
+
+.email{
+    margin-top:10px ;
+    margin-left:25px;
+    font-size: 13px;
+    font-weight: 800;
+    
+    }
+
+.student-email{
+
+margin-top: 5px;
+margin-left:25px;
+font-size: 10px;
+font-weight: 800;
+margin-bottom: 15px;
+    
+}
+
+.location{
+
+    margin-top:20px ;
+    margin-left:25px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.student-address{
+
+
+margin-top: 5px;
+margin-left:25px;
+font-size: 10px;
+font-weight: 800;
+
+}
+
+.addportfolio{
+margin-top: 40px;
+font-size: 15px;
+align-self: center;
+
+}
+
+.addportfolio i{
+margin-right: 10px;
+color: #5A80FB;
+transition: 1s;
+}
+
+.addportfolio i:hover{
+
+    color: #2048ce;
+
+}
+
+
+/* .portfolio-area */
+.portfolio-area{
+margin-top: 150px;
+margin-left:25px;
+background-color: rgb(255, 255, 255);
+
+display: flex;
+
+flex-wrap: wrap;
+
+justify-content:flex-start;
+position: relative;
+width: 830px;
+
+padding: 45px 15px;
+
+border-radius: 10px;
+box-shadow: 1px 1px 5px #bdbdbd;
+
+}
+/* 
+.portfolio-area h3{
+
+    position: relative;
+    margin: 30px;
+
+} */
+
+.student-portfolio{
+
+    font-size: 12px;
+
+    background-color:rgb(255, 255, 255);
+    margin-inline-start: 10px;
+    margin-bottom: 20px;;
+    
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 1px 1px 8px #bdbdbd;
+    transition: .5s;
+
+
+}
+
+.student-portfolio:hover{
+    transform: scale(1.05);
+  }
+
+.student-portfolio img{
+    width: 250px;
+    height: 250px;
+    overflow:auto;
+    object-fit: cover;
+    position: relative;
+    top:0px;  
+    left:0px; 
+    
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+.title{
+
+
+font-weight: 700;
+color: #1b1b1b;
+font-size:15px;
+text-align: center;
+height: 50px;
+overflow: auto;
+
+}
+
+.date{
+    position: absolute;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    left: 180px;
+    top: 220px;
+    z-index: 1;
+
+}
+
+.strip{
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+    left: 150px;
+    top: 218px;
+    width: 100px;
+    height: 20px;
+    opacity: .1;
+    border-radius: 10px 0 0 10px;
+    transition: .5s;
+
+}
+
+.strip:hover{
+
+    opacity: .5;
+   }
+   
+
+.likes{
+    float: right;
+   color: #5A80FB;
+   transition: 1s;
+   margin-top: 20px;
+   margin-right: 15px;
+}
+
+.likes i{
+   margin-right:5px;
+}
+
+
+
+#readmore{
+    float: left;
+    transition: 1s;
+    color: #5A80FB;
+
+}
+
+.readmore:hover{
+    color: #2048ce;
+}
+/* .portfolio-area */
+
+
+/* student add portfolio form */
+
+
+  /* student add portfolio form */
